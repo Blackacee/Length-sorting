@@ -1,2 +1,5 @@
 # Length-sorting
-Length sorting in JS 
+
+["zebras", "dogs", "elephants", "penguins"].sort(function(a, b) {
+ return b.length - a.length;
+});
